@@ -45,7 +45,6 @@ router.post('/create', function(req, res) {
         newRecord['lastModificationDate'] = currentDate;
 
         collection.insert(newRecord, function(err, result){
-            console.log(result);
             res.json(
                 (err === null) ? 'Record successfully created' : err
             );
