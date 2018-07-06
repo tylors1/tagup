@@ -30,5 +30,5 @@ curl -i -X PUT -H "Content-Type: application/json" -d "{\"timestamp\": \"2018-07
 
 To remove a record:
 ```bash
-// curl -X DELETE http://tylorsarrafzadeh.com/tagup/api/remove/:recordId
+curl -X DELETE http://tylorsarrafzadeh.com/tagup/api/remove/:recordId
 ```
